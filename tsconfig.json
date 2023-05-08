@@ -1,29 +1,14 @@
 {
   "compilerOptions": {
-    /* Projects */
-
-    /* Language and Environment */
-    "target": "ES6" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
-
-    /* Modules */
-    "module": "commonjs" /* Specify what module code is generated. */,
-    "rootDir": "./src" /* Specify the root folder within your source files. */,
-
-    /* JavaScript Support */
-
-    /* Emit */
-    "sourceMap": true /* Create source map files for emitted JavaScript files. */,
-    "outDir": "./build" /* Specify an output folder for all emitted files. */,
-    "removeComments": true /* Disable emitting comments. */,
-    "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */,
-
-    /* Interop Constraints */
-    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
-
-    /* Type Checking */
-    "strict": true /* Enable all strict type-checking options. */,
-    "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */
-
-    /* Completeness */
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true
   }
 }
