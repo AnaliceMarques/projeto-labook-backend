@@ -26,7 +26,7 @@ CREATE TABLE posts (
     content TEXT NOT NULL,
     likes INTEGER DEFAULT (0) NOT NULL,
     dislikes INTEGER DEFAULT (0) NOT NULL,
-    creates_at TEXT DEFAULT (DATETIME()) NOT NULL,
+    created_at TEXT DEFAULT (DATETIME()) NOT NULL,
     updated_at TEXT DEFAULT (DATETIME()) NOT NULL,
     FOREIGN KEY (creator_id) REFERENCES users(id)
         ON UPDATE CASCADE

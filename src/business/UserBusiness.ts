@@ -21,7 +21,7 @@ export class UserBusiness {
 
     const id = this.idGenerator.generate();
 
-    const idExist = await this.userDatabase.findUserByEmail(email);
+    const idExist = await this.userDatabase.findUserById(id);
 
     if (idExist) {
       throw new ConflictError();
